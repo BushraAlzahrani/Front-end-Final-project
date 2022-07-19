@@ -5,8 +5,8 @@ function Footer() {
   return (
 
     <div>
-    <div className="footer-img container-fluid row pt-4">
-        <img src={petimg}/> 
+    <div className="footer-img container-fluid row pt-4 ">
+        <img src={petimg} height="170"/> 
         </div>
 
 <footer bg="info" className="page-footer font-small pt-4 text-white bg-danger">
