@@ -1,6 +1,7 @@
 import React from 'react'
 import {Container, Card} from "react-bootstrap"
 import img1 from './images/pets-img-home.png' 
+import imgLogo from './images/pet-care-logo.png'
 
 function Home() {
   return (
@@ -9,7 +10,10 @@ function Home() {
     <div class="d-flex bd-highlight">
     <span className="border  pt-5 pb-5 px-5 rounded border-danger shadow mb-5">
   <div>
-  <div class="w-50 bd-highlight float-right border pt-5 pb-5 px-5 rounded shadow mb-5"></div>
+  <div class="w-50 bd-highlight ml-5">
+
+  <img className='rounded' src={imgLogo} height="150"/> 
+  </div>
     <h3>
     Begin your pet’s journey
       to a healthier life.
