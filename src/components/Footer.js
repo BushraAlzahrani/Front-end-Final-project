@@ -1,5 +1,5 @@
 import React from 'react'
-import petimg from './images/pets-img2.png'
+import petimg from './images/pets-img-footer.png'
 
 function Footer() {
   return (
@@ -24,8 +24,8 @@ function Footer() {
             <div className="col-md-3 mb-md-0 mb-3">
                 <h5 className="text-uppercase">Links</h5>
                 <ul className="list-unstyled">
-                    <li><a href="#!">Home</a></li>
-                    <li><a href="#!">Join Our Vets Team</a></li>
+                    <li><a className="footer-link" href="/home">Home</a></li>
+                    <li><a className="footer-link" href="/joinus">Join Our Vets Team</a></li>
 
                 </ul>
             </div>

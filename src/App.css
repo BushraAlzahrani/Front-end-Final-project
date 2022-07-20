@@ -7,6 +7,20 @@
 }
 
 
-a{
+.footer-link{
   color: white;
+}
+
+.card-link{
+  text-decoration: none;
+  color: black;
+}
+
+p{
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+h2{
+  text-align: center;
 }

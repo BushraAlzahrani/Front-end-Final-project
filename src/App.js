@@ -8,6 +8,7 @@ import {Container} from "react-bootstrap"
 import Footer from "./components/Footer";
 import Inquiries from "./components/Inquiries";
 import Veterinarians from "./components/Veterinarians";
+import ShowVetsCards from "./components/ShowVetsCards";
 
 function App() {
   return (
@@ -21,7 +22,7 @@ function App() {
               <Route path='/consult' element={<Consult/>}></Route>
               <Route path='/joinus' element={<JoinUs/>}></Route>
               <Route path='/inquiries' element={<Inquiries/>}></Route>
-              <Route path='/vets' element={<Veterinarians/>}></Route>
+              <Route path='/vets' element={<ShowVetsCards/>}></Route>
             </Route>
           </Routes>
         </Router>
