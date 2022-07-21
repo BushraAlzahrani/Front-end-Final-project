@@ -10,7 +10,7 @@ function Veterinarians(props) {
       <Card style={{ width: '18rem' }} >
         <Card.Img style={{ width: '100%',height:'350px' }}  variant="top" src={props.data.image} />
         <Card.Body>
-          <Card.Title>{props.data.name}</Card.Title>
+          <Card.Title>Dr. {props.data.name}</Card.Title>
           <Card.Text>
 
        
